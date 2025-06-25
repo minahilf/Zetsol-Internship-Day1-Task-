@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Firebase Todo App with Authentication
 
-## Getting Started
+This project was assigned by my mentor as a learning task.  
+I built a **Todo List application** using **Next.js** and **Firebase**.  
+It includes **User Sign Up, Login, Add, and Delete tasks**.  
+All tasks are saved in **Firebase Firestore**, and **Firebase Authentication** is used for user login.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔐 User Sign Up & Login (Email & Password)
+- 📝 Add new tasks
+- ❌ Delete tasks
+- 🔄 Real-time updates from Firestore
+- ✅ Firebase integration
+- 💻 Built with Next.js (App Router)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 What I Learned
 
-## Learn More
+- Firebase setup & configuration  
+- Firebase Authentication (createUserWithEmailAndPassword, signInWithEmailAndPassword)  
+- Firestore integration (addDoc, onSnapshot, deleteDoc)  
+- Next.js routing using `useRouter`  
+- State management using `useState` & `useEffect`
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js 14
+- Firebase (Auth + Firestore)
+- TypeScript
+- Tailwind CSS
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Minahil Fatima - Zetsol Intern
