@@ -35,15 +35,15 @@ export default function Home() {
 
   return (
     <div className="min-h-screen p-4 flex flex-col justify-center items-center">
-      <h1 className="text-white font-bold text-xl text-center">
+      <h1 className=" text-2xl text-center text-black font-serif uppercase">
         Todo List Authentication
       </h1>
 
-      <div className="flex flex-col justify-center items-center gap-6">
+      <div className="flex flex-col justify-center items-center gap-6 mt-2">
         <input
           type="email"
           name="email"
-          className="w-[250px] h-[40px] rounded-lg mt-4 p-4 text-black"
+          className="w-[250px] h-[40px] rounded-lg mt-4 p-4 text-black border border-[#63E4FF] font-serif"
           placeholder="hello12@gmail.com"
           onChange={(e) => setEmail(e.target.value)}
           required
@@ -52,17 +52,17 @@ export default function Home() {
         <input
           type="password"
           name="password"
-          className="w-[250px] h-[40px] rounded-lg  p-4 text-black"
+          className="w-[250px] h-[40px] rounded-lg  p-4 text-black border border-[#63E4FF] font-serif"
           placeholder="password"
           onChange={(e) => setPassword(e.target.value)}
         />
 
         <div className="flex flex-col gap-2">
-          <button onClick={signUp}  className="w-[150px] h-[40px] bg-yellow-500 rounded-full text-black font-bold hover:bg-yellow-300 duration-100">
+          <button onClick={signUp}  className="w-[150px] h-[40px] bg-[#63E4FF] rounded-full text-black font-bold hover:bg-[#47c3db] duration-100">
             SignUp
           </button>
 
-          <button onClick={LogIn}  className="w-[150px] h-[40px] bg-yellow-500 rounded-full text-black font-bold hover:bg-yellow-300 duration-100">
+          <button onClick={LogIn}  className="w-[150px] h-[40px] bg-[#63E4FF] rounded-full text-black font-bold hover:bg-[#47c3db] duration-100">
             Login
           </button>
         </div>
